@@ -24,7 +24,8 @@ function showChallenge() {
         document.getElementById("challenge-description").innerText = challenges[currentChallenge].description;
     } else {
         document.getElementById("challenge-container").innerHTML = 
-        "<h2>Parabéns, meu amor! Vai agora para o próximo desafio! 🐧💖</h2>";
+    "<h2>Parabéns, meu amor! Vai agora para o próximo desafio! 🐧💖<br> <a href='https://ooniion.github.io/escape2/'>Escape Room 2</a></h2>";
+
     
     }
 }
